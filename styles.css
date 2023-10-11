@@ -1,0 +1,23 @@
+
+
+footer{
+    
+    
+    width: 100%;
+    text-align: center;
+    
+    padding: 20px;
+}
+footer div{
+    color: #BDBDBD;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+footer div a{
+    text-decoration: none; /* Remove underline */
+    color: inherit;
+}
