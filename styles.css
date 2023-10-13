@@ -1,12 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&family=Montserrat:wght@100;300;600&family=Oswald:wght@300;600&display=swap');
 body{
     display: flex;
     flex-direction: column;
     padding: 0 15%;
     font-family: "Montserrat", sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
 }
 p{
     margin: 0%;
@@ -18,30 +15,63 @@ header{
     display: flex;
     justify-content: space-between;
 }
+
 form{
+    position: relative;
     display: flex;
     flex-direction: column;
     width: 45%;
+    margin-bottom: 60px;
+}
+form img{
+    position: absolute;
+    top: 11px;
+    left: 10px;
 }
 input, select{
-    padding: 10px;
+    padding: 15px;
     border-radius: 12px;
     border: 1px solid var(--Gray-3, #828282);
+    width: 100%;
+}
+.half-line{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding-top: 10px;
+}
+::placeholder,select option{
+    padding-left: 30px;
+    color: var(--Gray-3, #828282);
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.elmnt{
+    position: relative;
 }
 label{
-    padding: 10px 0;
+    padding-top: 10px;
 }
 .agree{
     display: flex;
     flex-direction: row;
     gap: 15px;
+    align-items: center;
 }
 button{
+    position: absolute;
+    right: -30px;
+    bottom: -10px;
     color: white;
     border-radius: 12px;
-    background: var(--Orange, #F2994A);
+    background: #F2994A;
     width: 30%;
-    padding: 10px
+    padding: 10px;
+    border: none;
+    margin-top: 20px;
 }
 .contact{
     display: flex;
@@ -84,6 +114,14 @@ button{
     justify-content: space-between;
     
 }
+.text p{
+    color: #4E5150;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
 .price{
     display: flex;
     flex-direction: row;
@@ -109,14 +147,12 @@ button{
     border-radius: 7px;
     padding: 0 4px;
 }
-hr{
-    margin: 0;
-}
 .pay{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-top:solid #4E5150;
+    border-top:1px solid #BDBDBD;
+    padding-top: 10px;
 }
 footer{
     

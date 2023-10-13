@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+
     <title>checkout page</title>
 </head>
 <body>
@@ -13,39 +14,68 @@
             <div class="contact">
                 <h3>Contact infomation</h3>
                 <label for="">E-mail</label>
-                <input type="email" placeholder="Enter your email...">
+                <div class="elmnt">
+                    <img src="mail.svg" alt=""><input type="email" placeholder="Enter your email...">
+                </div>
+                
     
                 <label for="">Phone</label>
-                <input type="number" placeholder="Enter your phone...">
+                <div class="elmnt">
+                    <img src="call.svg" alt=""><input type="number" placeholder="Enter your phone...">
+                </div>
+                
             </div>
             <div class="shiping">
                 <h3>Shipping address</h3>
                 <label for="">Full name</label>
-                <input type="text" placeholder="Rodney Cotton">
+                <div class="elmnt">
+                    <img src="account.svg" alt=""><input type="text" placeholder="Rodney Cotton" style="color: black;">
+                </div>
+                
     
                 <label for="">Address</label>
-                <input type="text" placeholder="Your address..">
+                <div class="elmnt">
+                    <img src="home.svg" alt=""><input type="text" placeholder="Your address..">
+                </div>
+                
     
                 <label for="">City</label>
-                <input type="text" placeholder="Your city..">
+                <div class="elmnt">
+                    <img src="location_city.svg" alt=""><input type="text" placeholder="Your city..">
+                </div>
+                <div class="half-label">
+                    
+                    
+                </div>
+                
+                <div class="half-line">
+                    
+                    <div class="elmnt"><label for="">Country</label>
+                        <img src="public.svg" alt="" style="top: 30px;">
+                        <select name="" id="" placeholder="">
+                            <option value="Your country..">Your country..</option>
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            <option value="mercedes">Mercedes</option>
+                            <option value="audi">Audi</option>
+                        </select>
+                    </div>
+                
     
-                <label for="">Country</label>
-                <select name="" id="" placeholder="">
-                    <option value="Your country..">Your country..</option>
-                    <option value="volvo">Volvo</option>
-                    <option value="saab">Saab</option>
-                    <option value="mercedes">Mercedes</option>
-                    <option value="audi">Audi</option>
-                </select>
-    
-                <label for="">Postal code</label>
-                <input type="number" placeholder="Your postal code..">
-                <div class="agree">
-                    <input type="checkbox" name="" id="" placeholder="">
+                
+                <div class="elmnt"><label for="">Postal code</label>
+                    <img src="markunread.svg" alt=""  style="top: 30px;"><input type="number" placeholder="Your postal code..">
+                </div>
+
+                </div>
+                
+                
+                <div class="agree" style=" padding-bottom: 40px;">
+                    <input type="checkbox" style="width: auto; justify-content: center;">
                     <label for="">Save this information for next time</label>
                 </div>
             </div>
-            <button>Continue</button>
+            <button class="rounded-lg ">Continue</button>
         </form>
         <div class="trolly">
             <div class="item">
