@@ -72,6 +72,10 @@ button{
     padding: 10px;
     border: none;
     margin-top: 20px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 .contact{
     display: flex;
@@ -96,6 +100,7 @@ button{
 }
 .trolly img{
     width: 50%;
+    border-radius: 12px;
 }
 .item{
     display: flex;
@@ -146,6 +151,15 @@ line-height: normal;
     color: grey;
     border-radius: 7px;
     padding: 0 4px;
+    
+}
+.reduency{
+    color: var(--Gray-1, #333);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 .pay{
     display: flex;
@@ -153,6 +167,14 @@ line-height: normal;
     justify-content: space-between;
     border-top:1px solid #BDBDBD;
     padding-top: 10px;
+}
+.pay p{
+    color: var(--Gray-1, #333);
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
 }
 footer{
     
@@ -174,4 +196,17 @@ footer div{
 footer div a{
     text-decoration: none; /* Remove underline */
     color: inherit;
+}
+@media (max-width: 700px){
+    .section{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    form{
+        width: 100%;
+    }
+    .trolly{
+        width: 100%;
+
+    }
 }
